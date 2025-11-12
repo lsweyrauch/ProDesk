@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { @apply bg-white text-slate-900 dark:bg-[#0b1220] dark:text-slate-200; }
+
+.card { @apply bg-white border border-slate-200 rounded-2xl p-5 dark:bg-slate-900/60 dark:border-white/10; }
+.badge { @apply px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-700 dark:bg-white/10 dark:text-slate-200; }
+.section-title { @apply font-medium mb-3 text-slate-900 dark:text-slate-200; }
+.subtle { @apply text-slate-500 dark:text-slate-400; }
+
+table th, table td { @apply pr-4; }
